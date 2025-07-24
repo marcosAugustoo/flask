@@ -1,0 +1,17 @@
+[project]
+name = "the_one"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Marcos Augusto Silva",email = "136196505+marcosAugustoo@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
